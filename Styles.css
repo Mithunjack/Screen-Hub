@@ -5,3 +5,67 @@ body{
 	color: black;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+.bg-light {
+    background-color: #70010f!important;
+}
+@media  (min-width: 2450px) and (max-width:5000px) {
+
+}
+@media (min-width: 1900px) and (max-width: 2400px) {
+
+}
+@media (min-width: 1350px) and (max-width: 1850px) {
+.nav-item > a{
+	font-size: 20px!important;
+}
+}
+@media  (min-width: 1000px) and (max-width: 1349px) {
+.nav-item > a{
+	font-size: 10px!important;
+}
+}
+@media  (min-width: 680px) and (max-width: 950px) {
+
+}
+@media (min-width: 490px) and (max-width: 650px) {
+
+}
+@media only screen and (min-device-width : 380px) and (max-device-width : 480px) {
+.nav-item > a{
+	font-size: 10px!important;
+}
+}
+@media (min-width: 340px) and (max-width: 375px) {
+
+}
+@media (min-width: 300px) and (max-width: 330px) {
+
+}
+.navbar{
+	height: 80px;
+}
+.nav-item > a{
+	color: white!important;
+	font-size: 22px;
+    margin: 0 10px;
+}
+/*.slider-section{
+	background-image: url(CloudsBackground.png);
+}*/
+.silder-background{
+	position: relative;
+    height: 750px;
+    overflow: hidden;
+}
+.silder-background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.slider-body{
+	z-index: 1;
+}
