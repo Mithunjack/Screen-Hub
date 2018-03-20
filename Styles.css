@@ -1,9 +1,13 @@
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700');
+html{
+  font-family:Raleway:700;
+}
 body{
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
 	color: black;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 .bg-light {
     background-color: #70010f!important;
@@ -49,12 +53,9 @@ body{
 	font-size: 22px;
     margin: 0 10px;
 }
-/*.slider-section{
-	background-image: url(CloudsBackground.png);
-}*/
 .silder-background{
 	position: relative;
-    height: 750px;
+    height: 895px;
     overflow: hidden;
 }
 .silder-background-image{
@@ -63,9 +64,103 @@ body{
     left: 0;
     z-index: -1;
     min-width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
+    background-color:#757575;
 }
 .slider-body{
 	z-index: 1;
+}
+.heading-font{
+    color: white;
+    font-size: 72px;
+    padding: 5% 0 0 0;
+    text-shadow: 0px 8px 19px #000000;
+    font-weight: 700;
+}
+.heading-second-font{
+	color: white;
+	font-size: 24px;
+}
+.slider-body-left-img{
+    padding: 2% 0 0 20%;
+}    
+
+.btn-facebook {
+    color: #fff!important;
+    border-radius: 25px;
+}
+.btn-twitter {
+    color: #fff!important;
+    border-radius: 25px;
+}
+.btn-google {
+    color: #fff!important;
+    border-radius: 25px;
+}
+.social-width{
+	width: 500px;
+}
+.btn-social  span {
+    top: 4px!important;
+    font-size: 1.3em!important;
+    font-weight: 700;
+    border-right: 0px!important;
+    left: 10px!important;
+}
+
+.social-font{
+	font-weight: 700;
+}
+
+.whatWeDo-background{
+	position: relative;
+    height: 1080px;
+    overflow: hidden;
+    padding: 0;
+}
+.whatWeDo-background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color:#757575;
+}
+.whatWeDo-body{
+	z-index: 1;
+}
+.whatWeDo-background >.flip {
+  -moz-transform: scaleX(-1);    /* Gecko */
+  -o-transform: scaleX(-1);      /* Opera */
+  -webkit-transform: scaleX(-1); /* Webkit */
+  transform: scaleX(-1);         /* Standard */
+  filter: FlipH;                 /* IE 6/7/8 */
+}
+.works{
+    background-color: rgb(112,1,15);
+    opacity: .9;
+    height: 100%;
+    padding: 0!important;
+}
+.signUp{
+	width: 250px;
+    background-color: white;
+    color: #70010f;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.btn-secondary:hover {
+    color: #ce0d26!important;
+    background-color: #f4fbff!important;
+    border-color: #545b62;
+}
+.Compatibility-background{
+	background-color: #bcbcbc;
+	height: 980px;
+}
+.Compatibility-inner{
+	padding: 0 5%;
 }
