@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Screen Hub</title>
-
+  <!-- Adding Favicon -->
+  <link rel="icon" href="icons/favicon.png" type="image/png" sizes="15x15">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>  
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css'>
@@ -26,28 +27,28 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#Slider">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">What We Do</a>
+            <a class="nav-link" href="#What-we">What We Do</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">How It Works</a>
+            <a class="nav-link" href="#What-we">How It Works</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="#">Compatibility</a>
+            <a class="nav-link" href="#Compatibility">Compatibility</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#Features">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#Pricing">Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Download</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SignUp</a>
+            <a class="nav-link" href="#Sign-up">SignUp</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Login</a>
@@ -57,7 +58,7 @@
     </nav>
   </header>
 
-  <section class="container-fluid silder-background">
+  <section class="container-fluid silder-background" id="Slider">
     <img class="silder-background-image" src="CloudsBackground.png">
     <div class="slider-body"  style="margin-top: 5%;">
         <div class="row">
@@ -67,23 +68,23 @@
           </div>
         </div>
         <div class="row">
-              <div class="col col-md-6">
+              <div class="col col-md-6 col-sm-12">
                 <div class="slider-body-left-img">
                   <img src="laptop.png" class="img-fluid">
                 </div>
               </div>
-              <div class="col col-md-6"> 
-                  <div style="padding: 10% 0 0 20%">
+              <div class="col col-md-6 col-sm-12"> 
+                  <div class="social-position">
                     <a class="btn btn-block btn-social btn-facebook text-center social-width img-fluid" >
                       <span class="fa fa-facebook"></span> <span class="social-font">Sign up with facebook</span>
                     </a>
                   </div>
-                  <div style="padding: 5% 0 0 20%">
+                  <div class="social-position">
                     <a class="btn btn-block btn-social btn-google text-center social-width img-fluid">
                       <span class="fa fa-google"></span> <span class="social-font">Sign in with google</span>
                     </a>
                   </div>
-                  <div style="padding: 5% 0 0 20%">
+                  <div class="social-position">
                     <a class="btn btn-block btn-social btn-twitter text-center social-width img-fluid">
                         <span class="fa fa-twitter"></span> <span class="social-font">Sign in with Twitter</span>
                     </a>
@@ -93,7 +94,7 @@
      </div> 
   </section>
 
-  <section class="container-fluid whatWeDo-background">
+  <section class="container-fluid whatWeDo-background" id="What-we">
     <img class="whatWeDo-background-image flip" src="CloudsBackground.png">
     <div class="container">
       <p class="heading-font text-center">What We Do</p>
@@ -102,21 +103,27 @@
     <div class="container-fluid works">
       
         <div class="row" style="padding-bottom: 60px;">
-          <div class="col-md-6 offset-md-1">
+          <div class="col-md-6 offset-md-1 col-sm-12">
               <p class="heading-font text-left">How It Works</p>
-              <h3 class="text-left" style="color: white;">Install and configure our software</h3>
-              <h5 class="text-left" style="color: white;">Everything works as it should out of the box, no servers to set up or developers to hire.</h5>
+              <h3 class="text-left d-none d-lg-block" style="color: white;">Install and configure our software</h3>
+              <p class="mobile-second-font text-left d-lg-none d-xl-none">Install and configure our software</p>
+              <p class="heading-second-font text-left" style="color: white;">Everything works as it should out of the box, no servers to set up or developers to hire.</p>
 
-              <h3 class="text-left" style="color: white;padding-top: 2%">Create and Design New Content</h3>
-              <h5 class="text-left" style="color: white;">Straightforward and intuitive interface allows you to create appealing content in just minutes.</h5>
+              <h3 class="text-left d-none d-lg-block" style="color: white;padding-top: 2%">Create and Design New Content</h3>
+              <p class="mobile-second-font text-left d-lg-none d-xl-none">Create and Design New Content</p>
+              <p class="heading-second-font text-left" style="color: white;">Straightforward and intuitive interface allows you to create appealing content in just minutes.</p>
 
-              <h3 class="text-left" style="color: white;padding-top: 2%">Setup Schedules and Playlists</h3>
-              <h5 class="text-left" style="color: white;">A dependable playback system that will play 24 hours a day, 365 days a year.</h5>
-              <div style="padding-top: 45px;">
+              <h3 class="text-left d-none d-lg-block" style="color: white;padding-top: 2%">Setup Schedules and Playlists</h3>
+              <p class="mobile-second-font text-left d-lg-none d-xl-none">Setup Schedules and Playlists</p>
+              <p class="heading-second-font text-left" style="color: white;">A dependable playback system that will play 24 hours a day, 365 days a year.</p>
+              <div style="padding-top: 45px;" class="d-lg-block d-none d-md-block">
                 <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
-              </div>               
+              </div>
+              <div style="padding-top: 45px;" align="middle" class="d-sm-block d-md-none d-lg-none">
+                <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
+              </div>                
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-12">
             <div style="padding-top: 10%;">
               <img src="contentmanager.png" class="img-fluid" style="box-shadow: 2px 1px 13px 1px #fbf7f7;border-radius: 1%;">
             </div>
@@ -127,13 +134,13 @@
     </div>
   </section>
 
-  <section class="container-fluid Compatibility-background">
+  <section class="container-fluid Compatibility-background" id="Compatibility">
     <div class="container Compatibility-inner">
       <p class="heading-font text-center"  style="padding-bottom: 5%;">Compatibility</p>
       <p class="heading-second-font text-center">ScreenHub is compatible with any synchronous digital display, including LED signs, plasma screens, LCD panels, and more. Edit the content of your sign with any operating system and from any device. The Player application is only compatible with Windows and Linux based operating systems.lasma screens, LCD panels, and more. Edit the content of your sign with any operating system and from any device.
       </p>
       <div class="container" style="padding-top: 10%;">
-        <div class="col col-md-12">
+        <div class="col col-md-12 col-sm-12 d-lg-block d-none d-md-block">
           <div class="row">
             <div class="offset-md-4 col-md-1" align="middle">
               <img src="icons/win.png" class="img-fluid" style="width: 60px;">
@@ -149,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-12">
+        <div class="col col-md-12 col-sm-12 d-lg-block d-none d-md-block">
             <div class="row" style="padding-top: 5%;">
                 <div class="offset-md-3 col-md-1" align="middle">
                   <img src="icons/phone.png" class="img-fluid" style="width: 60px;height: 40px;">
@@ -169,8 +176,43 @@
                 <div class="col-md-1" align="middle">
                   <img src="icons/screen wall.png" class="img-fluid" style="width: 60px;">
                 </div> 
+            </div>
+        </div>
+
+        <!-- Mobile Screen col -->
+        <div class="col col-md-12 col-sm-12 d-lg-none d-sm-block d-md-none">
+          <div class="row">
+            <div class="col col-sm-3" align="middle">
+              <img src="icons/win.png" class="img-fluid" style="width: 35px;">
+            </div>
+            <div class="col col-sm-3" align="middle">
+              <img src="icons/mac.png" class="img-fluid" style="width: 35px;">
+            </div>
+            <div class="col col-sm-3" align="middle">
+              <img src="icons/android.png" class="img-fluid" style="width: 35px;">
+            </div>
+            <div class="col col-sm-3" align="middle">
+              <img src="icons/linux.png" class="img-fluid" style="width: 35px;">
+            </div>
           </div>
         </div>
+        <div class="col col-md-12 col-sm-12 d-lg-none d-sm-block d-md-none">
+            <div class="row" style="padding-top: 15%;">
+                <div class="col col-md-2" align="middle">
+                  <img src="icons/laptop icon.png" class="img-fluid" style="width: 35px;">
+                </div>
+                <div class="col col-md-2" align="middle">
+                  <img src="icons/desktop.png" class="img-fluid" style="width: 35px;">
+                </div>
+                <div class="col col-md-2" align="middle">
+                  <img src="icons/digital billboard .png" class="img-fluid" style="width: 35px;">
+                </div>
+                <div class="col col-md-2" align="middle">
+                  <img src="icons/digital bulletin.png" class="img-fluid" style="width: 35px;">
+                </div> 
+            </div>
+        </div>
+
         <div class="row justify-content-center" style="padding-top: 108px;" >
               <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
         </div>
@@ -178,10 +220,10 @@
     </div>
   </section>
 
-  <section class="container-fluid Features-background">
+  <section class="container-fluid Features-background" id="Features">
         <p class="heading-font text-center">Features</p>
          <div class="row" style="padding: 4% 0 0 0"> 
-              <div class=" col col-md-3" style="margin-left: 12.5%;">
+              <div class=" col col-md-3 features-side">
                     <div class="row justify-content-center">
                       <img src="icons/free.png" class="img-fluid" style="filter: drop-shadow(1px 4px 5px black);">
                     </div>
@@ -207,7 +249,7 @@
               </div>
          </div>
          <div class="row" style="padding: 4% 0 0 0"> 
-              <div class=" col col-md-3" style="margin-left: 12.5%;">
+              <div class=" col col-md-3 features-side">
                     <div class="row justify-content-center">
                       <img src="icons/flexible.png" class="img-fluid" style="filter: drop-shadow(1px 4px 5px black);">
                     </div>
@@ -233,7 +275,7 @@
               </div>
          </div>
          <div class="row" style="padding: 4% 0 0 0"> 
-              <div class=" col col-md-3" style="margin-left: 12.5%;">
+              <div class=" col col-md-3 features-side">
                     <div class="row justify-content-center">
                       <img src="icons/tools.png" class="img-fluid" style="filter: drop-shadow(1px 4px 5px black);">
                     </div>
@@ -260,32 +302,32 @@
          </div>
   </section>
   
-  <section class="container-fluid subscription-background">
+  <section class="container-fluid subscription-background" id="Pricing">
      <p class="heading-font text-center">Subscription Plans</p>
-     <div class="wrapper" style="width: 80%;margin:  0 auto;padding-top:2%; ">
+     <div class="wrapper" >
          <div class="row">
-           <div class="col col-md-3">
+           <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
               <div class="row Subscription-plans">
                   <div class="col-md-12">
-                    <h3 class="text-center">Starter</h3>
-                    <h4 class="text-center">Lite User's Package</h4>
+                    <p class="text-center subs-head">Starter</p>
+                    <p class="text-center subs-second-head">Lite User's Package</p>
                   </div>
                   <div class="col-md-12" style="padding: 0px;">
                     <p class="text-center Subscription-free-font">Free</p>
                   </div>
                   <div class="col-md-12">
-                    <h5 class="text-center">Includes One Display</h5>
-                    <h5 class="text-center">1 GB Of Storage</h5>
-                    <h5 class="text-center">25 MB Max Upload Size</h5>
-                    <h5 class="text-center">Email Support</h5>
-                    <h5 class="text-center">Basic Weather</h5>
-                    <h5 class="text-center">Stock Images</h5>  
-                    <h5 class="text-center">Animated Backgrounds</h5>
-                    <h5 class="text-center">Scheduling w/ multiple</h5>
-                    <h5 class="text-center">Playlist</h5>
-                    <h5 class="text-center">Brightness Control</h5>
-                    <h5 class="text-center">Content Design Tools</h5>
-                    <h5 class="text-center">Scrolling Text</h5>
+                    <p class="text-center subs-font">Includes One Display</p>
+                    <p class="text-center subs-font">1 GB Of Storage</p>
+                    <p class="text-center subs-font">25 MB Max Upload Size</h5>
+                    <p class="text-center subs-font">Email Support</p>
+                    <p class="text-center subs-font">Basic Weather</p>
+                    <p class="text-center subs-font">Stock Images</p>  
+                    <p class="text-center subs-font">Animated Backgrounds</p>
+                    <p class="text-center subs-font">Scheduling w/ multiple</p>
+                    <p class="text-center subs-font">Playlist</p>
+                    <p class="text-center subs-font">Brightness Control</p>
+                    <p class="text-center subs-font">Content Design Tools</p>
+                    <p class="text-center subs-font">Scrolling Text<p>
                   </div>
                   <div class="col-md-12" style="padding: 0">
                     <div style="padding: 40px 0px;" align="middle">
@@ -294,28 +336,28 @@
                   </div>
               </div>
            </div>
-           <div class="col col-md-3">
+           <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
               <div class="row Subscription-plans">
                   <div class="col-md-12">
-                    <h3 class="text-center">Starter</h3>
-                    <h4 class="text-center">Lite User's Package</h4>
+                    <p class="text-center subs-head">Starter</p>
+                    <p class="text-center subs-second-head">Lite User's Package</p>
                   </div>
                   <div class="col-md-12" style="padding: 0px;">
                     <p class="text-center Subscription-free-font">Free</p>
                   </div>
                   <div class="col-md-12">
-                    <h5 class="text-center">Includes One Display</h5>
-                    <h5 class="text-center">1 GB Of Storage</h5>
-                    <h5 class="text-center">25 MB Max Upload Size</h5>
-                    <h5 class="text-center">Email Support</h5>
-                    <h5 class="text-center">Basic Weather</h5>
-                    <h5 class="text-center">Stock Images</h5>  
-                    <h5 class="text-center">Animated Backgrounds</h5>
-                    <h5 class="text-center">Scheduling w/ multiple</h5>
-                    <h5 class="text-center">Playlist</h5>
-                    <h5 class="text-center">Brightness Control</h5>
-                    <h5 class="text-center">Content Design Tools</h5>
-                    <h5 class="text-center">Scrolling Text</h5>
+                    <p class="text-center subs-font">Includes One Display</p>
+                    <p class="text-center subs-font">1 GB Of Storage</p>
+                    <p class="text-center subs-font">25 MB Max Upload Size</h5>
+                    <p class="text-center subs-font">Email Support</p>
+                    <p class="text-center subs-font">Basic Weather</p>
+                    <p class="text-center subs-font">Stock Images</p>  
+                    <p class="text-center subs-font">Animated Backgrounds</p>
+                    <p class="text-center subs-font">Scheduling w/ multiple</p>
+                    <p class="text-center subs-font">Playlist</p>
+                    <p class="text-center subs-font">Brightness Control</p>
+                    <p class="text-center subs-font">Content Design Tools</p>
+                    <p class="text-center subs-font">Scrolling Text<p>
                   </div>
                   <div class="col-md-12" style="padding: 0">
                     <div style="padding: 40px 0px;" align="middle">
@@ -324,58 +366,28 @@
                   </div>
               </div>
            </div>
-           <div class="col col-md-3">
-              <div class="row Subscription-plans">
-                    <div class="col-md-12">
-                      <h3 class="text-center">Starter</h3>
-                      <h4 class="text-center">Lite User's Package</h4>
-                    </div>
-                    <div class="col-md-12" style="padding: 0px;">
-                      <p class="text-center Subscription-free-font">Free</p>
-                    </div>
-                    <div class="col-md-12">
-                      <h5 class="text-center">Includes One Display</h5>
-                      <h5 class="text-center">1 GB Of Storage</h5>
-                      <h5 class="text-center">25 MB Max Upload Size</h5>
-                      <h5 class="text-center">Email Support</h5>
-                      <h5 class="text-center">Basic Weather</h5>
-                      <h5 class="text-center">Stock Images</h5>  
-                      <h5 class="text-center">Animated Backgrounds</h5>
-                      <h5 class="text-center">Scheduling w/ multiple</h5>
-                      <h5 class="text-center">Playlist</h5>
-                      <h5 class="text-center">Brightness Control</h5>
-                      <h5 class="text-center">Content Design Tools</h5>
-                      <h5 class="text-center">Scrolling Text</h5>
-                    </div>
-                    <div class="col-md-12" style="padding: 0">
-                      <div style="padding: 40px 0px;" align="middle">
-                          <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
-                      </div>
-                    </div>
-                </div>
-           </div>
-           <div class="col col-md-3">
+           <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
               <div class="row Subscription-plans">
                   <div class="col-md-12">
-                    <h3 class="text-center">Starter</h3>
-                    <h4 class="text-center">Lite User's Package</h4>
+                    <p class="text-center subs-head">Starter</p>
+                    <p class="text-center subs-second-head">Lite User's Package</p>
                   </div>
                   <div class="col-md-12" style="padding: 0px;">
                     <p class="text-center Subscription-free-font">Free</p>
                   </div>
                   <div class="col-md-12">
-                    <h5 class="text-center">Includes One Display</h5>
-                    <h5 class="text-center">1 GB Of Storage</h5>
-                    <h5 class="text-center">25 MB Max Upload Size</h5>
-                    <h5 class="text-center">Email Support</h5>
-                    <h5 class="text-center">Basic Weather</h5>
-                    <h5 class="text-center">Stock Images</h5>  
-                    <h5 class="text-center">Animated Backgrounds</h5>
-                    <h5 class="text-center">Scheduling w/ multiple</h5>
-                    <h5 class="text-center">Playlist</h5>
-                    <h5 class="text-center">Brightness Control</h5>
-                    <h5 class="text-center">Content Design Tools</h5>
-                    <h5 class="text-center">Scrolling Text</h5>
+                    <p class="text-center subs-font">Includes One Display</p>
+                    <p class="text-center subs-font">1 GB Of Storage</p>
+                    <p class="text-center subs-font">25 MB Max Upload Size</h5>
+                    <p class="text-center subs-font">Email Support</p>
+                    <p class="text-center subs-font">Basic Weather</p>
+                    <p class="text-center subs-font">Stock Images</p>  
+                    <p class="text-center subs-font">Animated Backgrounds</p>
+                    <p class="text-center subs-font">Scheduling w/ multiple</p>
+                    <p class="text-center subs-font">Playlist</p>
+                    <p class="text-center subs-font">Brightness Control</p>
+                    <p class="text-center subs-font">Content Design Tools</p>
+                    <p class="text-center subs-font">Scrolling Text<p>
                   </div>
                   <div class="col-md-12" style="padding: 0">
                     <div style="padding: 40px 0px;" align="middle">
@@ -383,12 +395,42 @@
                     </div>
                   </div>
               </div>
-           </div>          
+           </div>
+           <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="row Subscription-plans">
+                  <div class="col-md-12">
+                    <p class="text-center subs-head">Starter</p>
+                    <p class="text-center subs-second-head">Lite User's Package</p>
+                  </div>
+                  <div class="col-md-12" style="padding: 0px;">
+                    <p class="text-center Subscription-free-font">Free</p>
+                  </div>
+                  <div class="col-md-12">
+                    <p class="text-center subs-font">Includes One Display</p>
+                    <p class="text-center subs-font">1 GB Of Storage</p>
+                    <p class="text-center subs-font">25 MB Max Upload Size</h5>
+                    <p class="text-center subs-font">Email Support</p>
+                    <p class="text-center subs-font">Basic Weather</p>
+                    <p class="text-center subs-font">Stock Images</p>  
+                    <p class="text-center subs-font">Animated Backgrounds</p>
+                    <p class="text-center subs-font">Scheduling w/ multiple</p>
+                    <p class="text-center subs-font">Playlist</p>
+                    <p class="text-center subs-font">Brightness Control</p>
+                    <p class="text-center subs-font">Content Design Tools</p>
+                    <p class="text-center subs-font">Scrolling Text<p>
+                  </div>
+                  <div class="col-md-12" style="padding: 0">
+                    <div style="padding: 40px 0px;" align="middle">
+                        <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
+                    </div>
+                  </div>
+              </div>
+           </div>
          </div>
      </div>
   </section>
 
-  <section class="container-fluid sign-Up-Now">
+  <section class="container-fluid sign-Up-Now" id="Sign-up">
     <p class="heading-font text-center">Sign Up Now</p>
     <div class="container">
       <p class="heading-second-font text-center" style="padding-top: 5%;">Getting up and running with ScreenHub is easier than you can imagine. Installation simply requires signing up for a ScreenHub account and installing a light-weight piece of software on your digital screen’s Windows or Linux based media player. Click below to sign up.</p>
@@ -403,7 +445,6 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
-
   <script type="text/javascript">
     function checkScroll(){
       var startY = $('.navbar').height() * 2; //The point where the navbar changes in px

@@ -21,40 +21,433 @@ body{
     background-color: #70010f!important;
 }
 .bg-light-low{
-    background-color:rgba(112,1,15,.6)!important;
+    background-color:rgba(112,1,15,.9)!important;
 }
 @media  (min-width: 2450px) and (max-width:5000px) {
-
+.navbar{
+    height: 120px!important;
+}
+.silder-background{
+    height: 1265px!important;
+}
+.social-width {
+    width: 650px!important;
+}
+.whatWeDo-background {
+    height: 1263px!important;
+}
+.Features-background {
+    height: 1070px!important;  
+}
+.subscription-background {
+    height: 1172px!important;
+}
 }
 @media (min-width: 1900px) and (max-width: 2400px) {
-
+.heading-second-font {
+    font-size: 20px!important;
+}
+.subs-font {
+    font-size: 20px!important;
+    margin: 0;
+}
 }
 @media (min-width: 1350px) and (max-width: 1850px) {
+.silder-background {
+    height: 825px!important;
+}    
 .nav-item > a{
-	font-size: 20px!important;
+	font-size: 18px!important;
+}
+.social-width {
+    width: 400px!important;
+}
+.heading-font {
+    font-size: 55px!important;
+}
+.heading-second-font {
+    font-size: 18px!important;
+    margin: 0px!important;
+}
+.whatWeDo-background {
+    height: 930px!important;
+}
+.Compatibility-background {
+    height: 830px!important;
+}
+.Features-background {
+    height: 765px!important;
+}
+.Subscription-plans {
+    width: 100%!important;
+}
+.subs-font{
+    font-size: 20px!important;
+    margin: 0;
+}
+.signUp {
+    width: 220px!important;
+}
+.subscription-background {
+    height: 1015px!important;
+}
+.sign-Up-Now {
+    height: 500px!important;
 }
 }
 @media  (min-width: 1000px) and (max-width: 1349px) {
 .nav-item > a{
-	font-size: 10px!important;
+	font-size: 11px!important;
+}
+.heading-font {
+    font-size: 55px!important;
+}
+.silder-background {
+    height: 650px!important;
+}
+.Compatibility-background {
+    height: 750px!important;
+}
+.Features-background {
+    height: 700px!important;
+}
+.heading-second-font {
+    font-size: 14px!important;
+}
+.sign-Up-Now {
+    height: 410px!important;
+}
+.whatWeDo-background {
+    height: 900px!important;
+}
+.subs-font {
+    font-size: 14px!important;
+    margin: 0;
+}
+.Subscription-plans {
+    width: 108%!important;
+    height: 600px!important;
+}
+.signUp {
+    width: 150px!important;
+}
+.subs-head{
+    font-size: 25px!important;
+}
+.subs-second-head{
+    font-size: 17px!important;
+    margin: 0;
+}
+.subscription-background {
+    height: 875px!important;
 }
 }
 @media  (min-width: 680px) and (max-width: 950px) {
-
+.navbar {
+    height: auto!important;
+}
+.silder-background {
+    height: 500px!important;
+}
+.heading-font {
+    font-size: 30px!important;
+    padding: 10% 0 0 0!important;
+}
+.heading-second-font {
+    font-size: 14px!important;
+}
+.mobile-second-font{
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+.whatWeDo-background {
+    height: 820px!important;
+}
+.Compatibility-background {
+    height: 680px!important;
+}
+.btn-social span {
+    font-size: 1em!important;
+}
+.signUp {
+    width: 150px!important;
+}
+.Features-background {
+    height: 620px!important;
+}
+.wrapper {
+    width: 100%!important;
+    padding-top: 5%!important;
+}
+.Subscription-plans {
+    width: 85%;
+    margin: 10% auto!important;
+}
+.subscription-background {
+    height: 1780px!important;
+}
+.sign-Up-Now {
+    height: 400px!important;
+}
 }
 @media (min-width: 490px) and (max-width: 650px) {
-
+.navbar {
+    height: auto!important;
+}
+.silder-background {
+    height: 500px!important;
+}
+.heading-font {
+    font-size: 30px!important;
+    padding: 10% 0 0 0!important;
+}
+.heading-second-font {
+    font-size: 14px!important;
+}
+.mobile-second-font{
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+.whatWeDo-background {
+    height: 820px!important;
+}
+.Compatibility-background {
+    height: 680px!important;
+}
+.btn-social span {
+    font-size: 1em!important;
+}
+.signUp {
+    width: 150px!important;
+}
+.Features-background {
+    height: 620px!important;
+}
+.wrapper {
+    width: 100%!important;
+    padding-top: 5%!important;
+}
+.Subscription-plans {
+    width: 85%;
+    margin: 10% auto!important;
+}
+.subscription-background {
+    height: 1780px!important;
+}
+.sign-Up-Now {
+    height: 400px!important;
+}
 }
 @media only screen and (min-device-width : 380px) and (max-device-width : 480px) {
 .nav-item > a{
-	font-size: 10px!important;
+	font-size: 20px!important;
+}
+.navbar {
+    height: auto!important;
+}
+.silder-background {
+    height: 650px!important;
+}
+.social-position {
+    padding: 20px 0 0 0%!important;
+}
+.heading-font {
+    font-size: 30px!important;
+    padding: 20% 0 0 0!important;
+}
+.heading-second-font {
+    font-size: 12px!important;
+}
+.mobile-second-font{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+}
+.text-left {
+    text-align: center!important;
+}
+.whatWeDo-background {
+    height: 1150px!important;
+}
+.Compatibility-background {
+    height: 680px!important;
+}
+.btn-social span {
+    font-size: 1em!important;
+}
+.signUp {
+    width: 150px!important;
+}
+.Features-background {
+    height: 620px!important;
+}
+.wrapper {
+    width: 100%!important;
+    padding-top: 5%!important;
+}
+.Subscription-plans {
+    width: 80%!important;
+    margin: 10% auto!important;
+}
+.subscription-background {
+    height: 3300px!important;
+}
+.sign-Up-Now {
+    height: 400px!important;
+}
+.features-side{
+    margin-left: 0!important;
+}
+.subs-font {
+    font-size: 20px!important;
+    margin: 2px!important;
+}
+.subs-second-head {
+    font-size:25px!important;
+    padding-bottom: 2%;
 }
 }
 @media (min-width: 340px) and (max-width: 375px) {
-
+.nav-item > a{
+    font-size: 20px!important;
+}
+.navbar {
+    height: auto!important;
+}
+.silder-background {
+    height: 650px!important;
+}
+.social-position {
+    padding: 20px 0 0 0%!important;
+}
+.heading-font {
+    font-size: 30px!important;
+    padding: 20% 0 0 0!important;
+}
+.heading-second-font {
+    font-size: 12px!important;
+    margin: 2%!important;
+}
+.mobile-second-font{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+}
+.text-left {
+    text-align: center!important;
+}
+.whatWeDo-background {
+    height: 1100px!important;
+}
+.Compatibility-background {
+    height:620px!important;
+}
+.btn-social span {
+    font-size: 1em!important;
+}
+.signUp {
+    width: 120px!important;
+}
+.Features-background {
+    height: 520px!important;
+}
+.wrapper {
+    width: 100%!important;
+    padding-top: 5%!important;
+}
+.Subscription-plans {
+    width: 90%!important;
+    margin: 10% auto!important;
+}
+.subscription-background {
+    height:3270px!important;
+}
+.sign-Up-Now {
+    height: 400px!important;
+}
+.features-side{
+    margin-left: 0!important;
+}
+.subs-font {
+    font-size: 18px!important;
+    margin: 2px!important;
+}
+.subs-second-head {
+    font-size: 20px!important;
+    padding-bottom: 2%;
+}
 }
 @media (min-width: 300px) and (max-width: 330px) {
-
+.nav-item > a{
+    font-size: 20px!important;
+}
+.navbar {
+    height: auto!important;
+}
+.silder-background {
+    height: 650px!important;
+}
+.social-position {
+    padding: 20px 0 0 0%!important;
+}
+.heading-font {
+    font-size: 30px!important;
+    padding: 20% 0 0 0!important;
+}
+.heading-second-font {
+    font-size: 12px!important;
+    margin: 2%!important;
+}
+.mobile-second-font{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+}
+.text-left {
+    text-align: center!important;
+}
+.whatWeDo-background {
+    height: 1100px!important;
+}
+.Compatibility-background {
+    height:620px!important;
+}
+.btn-social span {
+    font-size: 1em!important;
+}
+.signUp {
+    width: 120px!important;
+}
+.Features-background {
+    height: 520px!important;
+}
+.wrapper {
+    width: 100%!important;
+    padding-top: 5%!important;
+}
+.Subscription-plans {
+    width: 90%!important;
+    margin: 10% auto!important;
+}
+.subscription-background {
+    height:3230px!important;
+}
+.sign-Up-Now {
+    height: 400px!important;
+}
+.features-side{
+    margin-left: 0!important;
+}
+.subs-font {
+    font-size: 18px!important;
+    margin: 2px!important;
+}
+.subs-second-head {
+    font-size: 20px!important;
+    padding-bottom: 2%;
+}
 }
 .navbar{
 	height: 80px;
@@ -94,7 +487,7 @@ body{
 	font-size: 24px;
 }
 .slider-body-left-img{
-    padding: 2% 0 0 20%;
+    padding: 0% 0 0 20%;
 }    
 
 .btn-facebook {
@@ -114,7 +507,7 @@ body{
 }
 .btn-social  span {
     top: 4px!important;
-    font-size: 1.3em!important;
+    font-size: 1.3em;
     font-weight: 700;
     border-right: 0px!important;
     left: 10px!important;
@@ -207,7 +600,32 @@ body{
     background-color: #53010c;
     color: white;
 }
+.subs-font{
+    font-size: 18px;
+    margin: 0;
+}
 .sign-Up-Now{
     background-color: #0c0b0b;
     height: 600px;
+}
+.subs-head{
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+
+}
+.subs-second-head{
+    font-size: 17px;
+    margin: 0;
+}
+.wrapper{
+    width: 80%;
+    margin:  0 auto;
+    padding-top:2%;
+}
+.social-position{
+    padding: 5% 0 0 20%;
+}
+.features-side{
+    margin-left: 12.5%;
 }
