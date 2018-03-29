@@ -59,7 +59,7 @@
   </header>
 
   <section class="container-fluid silder-background" id="Slider">
-    <img class="silder-background-image" src="CloudsBackground.png">
+    <!-- <img class="silder-background-image" src="CloudsBackground.png"> -->
     <div class="slider-body"  style="margin-top: 5%;">
         <div class="row">
           <div class="container">
@@ -95,15 +95,15 @@
   </section>
 
   <section class="container-fluid whatWeDo-background" id="What-we">
-    <img class="whatWeDo-background-image flip" src="CloudsBackground.png">
-    <div class="container">
-      <p class="heading-font text-center">What We Do</p>
-      <p class="heading-second-font text-center" style="padding-bottom: 5%;">ScreenHub is an all inclusive software as a service (SaaS) content and design management system for your digital signs. Our web-based solution allows you to easily create, control, and modify messages on your sign from any internet enabled device. ScreenHub is hardware agnostic, making it compatible with any display type and screen resolution. We are based in the San Francisco Bay Area and have over 30 years of combined experience in Digital Signage, Software Development, Electrical Engineering, and Digital Marketing.</p>
+    <!-- <img class="whatWeDo-background-image flip" src="CloudsBackground.png"> -->
+    <div class="container-what-we-do">
+      <p class="heading-font text-right">What We Do</p>
+      <p class="heading-second-font text-right" style="padding-bottom: 5%;">ScreenHub is an all inclusive software as a service (SaaS) content and design management system for your digital signs. Our web-based solution allows you to easily create, control, and modify messages on your sign from any internet enabled device. ScreenHub is hardware agnostic, making it compatible with any display type and screen resolution. We are based in the San Francisco Bay Area and have over 30 years of combined experience in Digital Signage, Software Development, Electrical Engineering, and Digital Marketing.</p>
     </div>
     <div class="container-fluid works">
       
-        <div class="row" style="padding-bottom: 60px;">
-          <div class="col-md-6 offset-md-1 col-sm-12">
+        <div class="row container-what-we-do" style="padding-bottom: 60px;">
+          <div class="col-md-6 col-sm-12">
               <p class="heading-font text-left">How It Works</p>
               <h3 class="text-left d-none d-lg-block" style="color: white;">Install and configure our software</h3>
               <p class="mobile-second-font text-left d-lg-none d-xl-none">Install and configure our software</p>
@@ -123,9 +123,9 @@
                 <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
               </div>                
           </div>
-          <div class="col-md-5 col-sm-12">
+          <div class="col-md-6 col-sm-12">
             <div style="padding-top: 10%;">
-              <img src="contentmanager.png" class="img-fluid" style="box-shadow: 2px 1px 13px 1px #fbf7f7;border-radius: 1%;">
+              <img src="element2.png" class="img-fluid" style="border-radius: 1%;">
             </div>
               
           </div>
@@ -135,11 +135,11 @@
   </section>
 
   <section class="container-fluid Compatibility-background" id="Compatibility">
-    <div class="container Compatibility-inner">
-      <p class="heading-font text-center"  style="padding-bottom: 5%;">Compatibility</p>
-      <p class="heading-second-font text-center">ScreenHub is compatible with any synchronous digital display, including LED signs, plasma screens, LCD panels, and more. Edit the content of your sign with any operating system and from any device. The Player application is only compatible with Windows and Linux based operating systems.lasma screens, LCD panels, and more. Edit the content of your sign with any operating system and from any device.
+    <div class="container-what-we-do">
+      <p class="heading-font text-right"  style="padding-bottom: 5%;">Compatibility</p>
+      <p class="heading-second-font text-right">ScreenHub is compatible with any synchronous digital display, including LED signs, plasma screens, LCD panels, and more. Edit the content of your sign with any operating system and from any device. The Player application is only compatible with Windows and Linux based operating systems.lasma screens, LCD panels, and more. Edit the content of your sign with any operating system and from any device.
       </p>
-      <div class="container" style="padding-top: 10%;">
+      <div class="container-fluid" style="padding-top: 10%;">
         <div class="col col-md-12 col-sm-12 d-lg-block d-none d-md-block">
           <div class="row">
             <div class="offset-md-4 col-md-1" align="middle">
@@ -331,7 +331,7 @@
                   </div>
                   <div class="col-md-12" style="padding: 0">
                     <div style="padding: 40px 0px;" align="middle">
-                        <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
+                        <button type="button" class="btn btn-secondary btn-lg signUp" id="custom-signUp">SIGN UP</button>
                     </div>
                   </div>
               </div>
@@ -361,7 +361,7 @@
                   </div>
                   <div class="col-md-12" style="padding: 0">
                     <div style="padding: 40px 0px;" align="middle">
-                        <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
+                        <button type="button" class="btn btn-secondary btn-lg signUp" id="custom-signUp">SIGN UP</button>
                     </div>
                   </div>
               </div>
@@ -391,7 +391,7 @@
                   </div>
                   <div class="col-md-12" style="padding: 0">
                     <div style="padding: 40px 0px;" align="middle">
-                        <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
+                        <button type="button" class="btn btn-secondary btn-lg signUp" id="custom-signUp">SIGN UP</button>
                     </div>
                   </div>
               </div>
@@ -421,7 +421,7 @@
                   </div>
                   <div class="col-md-12" style="padding: 0">
                     <div style="padding: 40px 0px;" align="middle">
-                        <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
+                        <button type="button" class="btn btn-secondary btn-lg signUp" id="custom-signUp">SIGN UP</button>
                     </div>
                   </div>
               </div>
@@ -439,6 +439,22 @@
       <div style="padding: 40px 0px;" align="middle">
           <button type="button" class="btn btn-secondary btn-lg signUp">SIGN UP</button>
       </div>
+    </div>
+    <div class="col col-md-12 col-sm-12 d-lg-block d-none d-md-block" style="padding-top: 70px;">
+          <div class="row">
+            <div class="offset-md-4 col-md-1" align="middle">
+              <img src="icons/win.png" class="img-fluid" style="width: 60px;">
+            </div>
+            <div class="col-md-1" align="middle">
+              <img src="icons/mac.png" class="img-fluid" style="width: 60px;">
+            </div>
+            <div class="col-md-1" align="middle">
+              <img src="icons/android.png" class="img-fluid" style="width: 60px;">
+            </div>
+            <div class="col-md-1" align="middle">
+              <img src="icons/linux.png" class="img-fluid" style="width: 60px;">
+            </div>
+          </div>
     </div>
   </section>
 
